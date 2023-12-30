@@ -1,10 +1,4 @@
-![image](https://github.com/mniloy1123/notes-cli/assets/106124483/5089a404-1621-4851-8d1e-3c2edeeb8b11)
-![image](https://github.com/mniloy1123/notes-cli/assets/106124483/895046fa-d167-4df5-bce1-c5689c0028ce)
-![image](https://github.com/mniloy1123/notes-cli/assets/106124483/d99f3a29-f4b1-4d9e-9761-4c2b64d3cdec)
-![image](https://github.com/mniloy1123/notes-cli/assets/106124483/ce7f56b5-f295-49ce-a6fb-48f4c73377a2)
-![image](https://github.com/mniloy1123/notes-cli/assets/106124483/1abd99d6-647e-4c9d-bc47-f9efc1d58ec3)
-![image](https://github.com/mniloy1123/notes-cli/assets/106124483/8ca5d0e4-f24d-4f39-96bb-e73e9d9f9bad)
-![image](https://github.com/mniloy1123/notes-cli/assets/106124483/1cb60060-40b2-4c6f-99a0-f3e4c1e6cee7)
+![image](https://github.com/mniloy1123/notes-cli/assets/106124483/037caca2-08e8-47fb-a181-1f2bd9f93ae0)
 
 
 ## Introduction
