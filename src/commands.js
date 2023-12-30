@@ -1,7 +1,17 @@
 import yargs from 'yargs'
 import { hideBin } from 'yargs/helpers'
+import express from 'express'
 import { newNote, getAllNotes, findNotes, removeNote, removeAllNotes } from './notes.js'
 import { listNotes } from './utils.js'
+
+const app = express();
+
+app.get('/', async (req, res) => {
+    const notes = await getAllNotes();
+    const notesContent = notes.map(note => note.content).join('<br>');
+    res.send(`Your notes:<br>${notesContent}`);
+  });
+
 
 yargs(hideBin(process.argv))
   .command('new <note>', 'Create a new note', yargs => {
@@ -47,11 +57,13 @@ yargs(hideBin(process.argv))
     return yargs
       .positional('port', {
         describe: 'port to bind on',
-        default: 5000,
+        default: 5050,
         type: 'number'
       })
   }, async (argv) => {
-
+    app.listen(argv.port, () => {
+        console.log(`Server running on http://localhost:${argv.port}`);
+      });
   })
   .command('clean', 'remove all notes', () => {}, async (argv) => {
     await removeAllNotes();
